@@ -10,7 +10,7 @@ This is a simple news blog web application developed using React.js that fetches
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-
+- [Deployment](#deployment)
 
 ## Features
 
@@ -71,6 +71,9 @@ Before you begin, make sure you have the following tools installed:
    ```
 
 4. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to view the news blog.
+
+## Deployment
+The application is deployed and accessible at  (https://news-blog-using-api-kavinesh.netlify.app/)
 
 
 
