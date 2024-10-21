@@ -8,7 +8,8 @@ import style from "./home.module.css";
 const Home = () => {
   const { loaded, articles } = useFetchSectionsData("home");
 
-  if (loaded) {
+  if (loaded) {  
+    
     return (
       <div className={style.container}>
         {articles.map((article, index) => {
