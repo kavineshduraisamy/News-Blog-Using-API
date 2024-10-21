@@ -8,10 +8,10 @@ This is the final project from the React course on the online course provider [S
 
 [Project URL](https://new-york-times-clone-react.netlify.app/) (hosted on Netlify)
 
-## Screenshot
+<!-- ## Screenshot
 
 <img src="./screenshots/newyorktimes-clone-mobile-preview.png" alt="New York Times clone mobile preview" width="25%"> <img src="./screenshots/newyorktimes-clone-desktop-preview.png" alt="New York Times clone desktop preview" width="60%">
-<img src="./screenshots/newyorktimes-clone-section-preview.png" alt="New York Times clone section preview" width="48%"> <img src="./screenshots/newyorktimes-clone-search-results-preview.png" alt="New York Times clone search results preview" width="48%">
+<img src="./screenshots/newyorktimes-clone-section-preview.png" alt="New York Times clone section preview" width="48%"> <img src="./screenshots/newyorktimes-clone-search-results-preview.png" alt="New York Times clone search results preview" width="48%"> -->
 
 ## Project
 
