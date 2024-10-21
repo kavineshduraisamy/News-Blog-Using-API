@@ -8,7 +8,7 @@ const classNames = require("classnames");
 const Article = ({
   section,
   published_date,
-  title,
+  title, 
   byline,
   multimedia,
   abstract,

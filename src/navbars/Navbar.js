@@ -2,7 +2,7 @@ import React from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { HiOutlineMenu, HiOutlineSearch, HiOutlineX } from "react-icons/hi";
 
-import logo from "../images/new-york-times-logo.png";
+import logo from "../images/new-york-times-logos.png";
 import { useGlobalContext } from "../context";
 import style from "./navbar.module.css";
 
@@ -54,12 +54,12 @@ const Navbar = (props) => {
       <div className={style.navbar}>
         {showMenu ? (
           <HiOutlineX
-            className={classNames(style.icon, style.menuIcon)}
+            className={classNames(style.icons, style.menuIcon)}
             onClick={() => setShowMenu(false)}
           />
         ) : (
           <HiOutlineMenu
-            className={classNames(style.icon, style.menuIcon)}
+            className={classNames(style.icons, style.menuIcon)}
             onClick={() => setShowMenu(true)}
           />
         )}
@@ -69,7 +69,7 @@ const Navbar = (props) => {
         </Link>
 
         <HiOutlineSearch
-          className={classNames(style.icon, style.searchIcon)}
+          className={classNames(style.icons, style.searchIcon)}
           onClick={() => setShowSearch(!showSearch)}
         />
       </div>

@@ -4,7 +4,7 @@ import axios from "axios";
 export const useFetchSectionsData = (section) => {
   const [loaded, setLoaded] = React.useState(false);
   const [articles, setArticles] = React.useState([]);
-
+  
   React.useEffect(() => {
     setLoaded(false);
 

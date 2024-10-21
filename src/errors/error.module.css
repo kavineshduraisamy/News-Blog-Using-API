@@ -11,6 +11,6 @@
 }
 
 .backHome:active,
-.backHome:hover {
+.backHome:hover { 
   background-color: #326891;
 }

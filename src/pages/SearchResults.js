@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 
 import { useGlobalContext } from "../context";
 import { useFetchSearchData } from "../hooks/useFetchSearchData";
-import SearchedArticle from "../article/SearchedArticle";
+import SearchedArticle from "../articles/SearchedArticle";
 import style from "./page.module.css";
 
 const SearchResults = () => {

@@ -1,15 +1,15 @@
 import { Link, NavLink } from "react-router-dom";
 
-import logo from "../images/new-york-times-logo.png";
+import logo from "../images/new-york-times-logos.png";
 import { useGlobalContext } from "../context";
 import style from "./footer.module.css";
 
 const Footer = () => {
   const { sections, formatSection } = useGlobalContext();
-
+ 
   // Scroll to top when a nav link is clicked
   const scrollToTop = () => {
-    window.scroll({
+    window.scroll({ 
       top: 0,
       left: 0,
       behavior: "smooth",

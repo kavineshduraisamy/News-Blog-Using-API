@@ -4,7 +4,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 
 import { useGlobalContext } from "../context";
 import { useFetchSectionsData } from "../hooks/useFetchSectionsData";
-import Article from "../article/Article";
+import Article from "../articles/Article";
 import style from "./page.module.css";
 
 const Section = () => {

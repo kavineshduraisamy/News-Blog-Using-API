@@ -9,7 +9,7 @@ const SearchedArticle = ({
   byline,
   abstract,
   section_name,
-  pub_date,
+  pub_date, 
   headline,
   web_url,
 }) => {

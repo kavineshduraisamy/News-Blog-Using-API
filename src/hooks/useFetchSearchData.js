@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-
+ 
 export const useFetchSearchData = (query) => {
   const [loaded, setLoaded] = React.useState(false);
   const [articles, setArticles] = React.useState([]);

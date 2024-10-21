@@ -8,7 +8,7 @@ const AppProvider = ({ children }) => {
     "home",
     "world",
     "us",
-    "politics",
+    "politics", 
     "nyregion",
     "business",
     "opinion",

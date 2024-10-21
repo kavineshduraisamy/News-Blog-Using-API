@@ -2,12 +2,12 @@ import React from "react";
 import ClipLoader from "react-spinners/ClipLoader";
 
 import { useFetchSectionsData } from "../hooks/useFetchSectionsData";
-import Article from "../article/Article";
+import Article from "../articles/Article";
 import style from "./home.module.css";
 
 const Home = () => {
   const { loaded, articles } = useFetchSectionsData("home");
-
+ 
   if (loaded) {
     return (
       <div className={style.container}>
