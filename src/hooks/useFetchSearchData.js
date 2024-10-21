@@ -11,7 +11,7 @@ export const useFetchSearchData = (query) => {
 
     axios
       .get(
-        `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${query}&api-key=${`Your_key`}`
+        `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${query}&api-key=${`9F70H1O1ZjGDniO4VWKPDDVDeQpKq3tp`}`
       )
       .then((response) => setArticles(response.data.response.docs))
       .then(() => setLoaded(true))

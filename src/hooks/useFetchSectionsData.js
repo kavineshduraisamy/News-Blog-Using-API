@@ -12,7 +12,7 @@ export const useFetchSectionsData = (section) => {
     section &&
       axios
         .get(
-          `https://api.nytimes.com/svc/topstories/v2/${section}.json?api-key=${`Your_key`}`
+          `https://api.nytimes.com/svc/topstories/v2/${section}.json?api-key=${`9F70H1O1ZjGDniO4VWKPDDVDeQpKq3tp`}`
         )
         .then((response) => setArticles(response.data.results))
         .then(() => setLoaded(true))

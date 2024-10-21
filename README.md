@@ -1,80 +1,48 @@
+# New York Times Clone
 
-# News Blog using React.js and API
+New York Times Clone built with React.
 
-This is a simple news blog web application developed using React.js that fetches news articles from a third-party API and displays them to the user. It allows users to read the latest news, search for specific articles, and view detailed information about each article.
+This is the final project from the React course on the online course provider [Start2Impact](https://www.start2impact.it/), where I'm studying front-end development.
 
-## Table of Contents
+## Link
 
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Deployment](#deployment)
+[Project URL](https://new-york-times-clone-react.netlify.app/) (hosted on Netlify)
 
-## Features
+## Screenshot
 
-- Display a list of the latest news articles.
-- Search for articles by keywords.
-- View detailed information about each article, including the title, author, publication date, and content.
-- Responsive design for mobile and desktop devices.
+<img src="./screenshots/newyorktimes-clone-mobile-preview.png" alt="New York Times clone mobile preview" width="25%"> <img src="./screenshots/newyorktimes-clone-desktop-preview.png" alt="New York Times clone desktop preview" width="60%">
+<img src="./screenshots/newyorktimes-clone-section-preview.png" alt="New York Times clone section preview" width="48%"> <img src="./screenshots/newyorktimes-clone-search-results-preview.png" alt="New York Times clone search results preview" width="48%">
 
-## Getting Started
+## Project
 
-Follow these instructions to set up and run the project on your local machine.
+Users should be able to:
 
-### Prerequisites
+- View the optimal layout for the content depending on their device’s screen size
+- See the homepage with the current top stories
+- Select a section from the navigation menu and see the top stories related to that topic
+- In the mobile and tablet versions, tap the menu icon to open the menu and the X icon to close it
+- In the desktop version, click on the magnifying glass icon to see the search input
+- Search for a topic and see a list of news related to the keyword entered
+- Sort the results of the search by relevance (default), newest or oldest
 
-Before you begin, make sure you have the following tools installed:
+## Built with
 
-- [Node.js](https://nodejs.org/) (v14.0 or higher)
-- [npm](https://www.npmjs.com/) (v6.0 or higher) or [Yarn](https://yarnpkg.com/) (v1.22 or higher)
+- Semantic HTML5 markup
+- CSS custom properties and media queries
+- [CSS Modules](https://github.com/css-modules/css-modules)
+- JavaScript
+- React
+- [Create React App](https://create-react-app.dev/)
+- [React Router](https://reactrouter.com/en/main)
+- [New York Times API](https://developer.nytimes.com/)
+- [axios](https://axios-http.com/)
+- [React Spinners](https://www.npmjs.com/package/react-spinners)
+- [classnames](https://www.npmjs.com/package/classnames)
 
-### Installation
+## Author
 
-1. Clone this repository to your local machine:
+Chiara Stefanelli - Front-End Development Student based in Italy
 
-   ```bash
-   git clone https://github.com/kavineshduraisamy/News-Blog-Using-API.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd news-blog-react
-   ```
-
-3. Install the project dependencies:
-
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-## Usage
-
-1. Obtain an API key from a news service provider (e.g., [NewsAPI](https://newsapi.org/)).
-
-2. Create a `.env` file in the project root directory and add your API key:
-
-   ```
-   REACT_APP_API_KEY=your-api-key-here
-   ```
-
-3. Start the development server:
-
-   ```bash
-   npm start
-   # or
-   yarn start
-   ```
-
-4. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to view the news blog.
-
-## Deployment
-The application is deployed and accessible at  (https://news-blog-using-api-kavinesh.netlify.app/)
-
-
-
-  
+- Website - [Chiara Stefanelli](https://chiarastefanelli.netlify.app/)
+- LinkedIn - [Chiara Stefanelli](https://www.linkedin.com/in/chiarastefanelli/?locale=en_US)
+- start2impact profile - [Chiara Stefanelli](https://talent.start2impact.it/profile/chiara-stefanelli-13)
